@@ -1,3 +1,11 @@
+/*colors: https://www.schemecolor.com/brain-drain.php*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 /** HEADER **/
 #header-nav {
   background-color: #c6ebbe;
@@ -59,7 +67,23 @@ button.navbar-toggler {
 }
 
 .long-text {
-  height: 1000px;
-  background-color: #f8e9c8;
+ /* height: 500px;
+  background-color: #f8e9c8;*/
   color: #07027C;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  /*border: 1px solid black;*/
+}
+
+.section {
+  height: 800px;
+  background-color: #f8e9c8;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  padding-top: 10px;
 }
